@@ -16,8 +16,10 @@ The estimated timeline is as follows:
 
 ## Original Comp
 ![screenshot of original comp](/readme-images/original-comp.jpg)
-*The original to recreate*
+*The original comp*
 
 ## Progression
 **5/20/2020 Planning Day**
-I created a new repo and cloned it down. I set up the readme, readme-images and assets folders, and html and css files. 
+I created a new repo and cloned it down. I set up the readme, readme-images and assets folders, and html and css files.
+![image of wireframe](/readme-images/compchal1-wireframe.jpg)
+*Wireframe*
