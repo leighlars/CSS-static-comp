@@ -46,8 +46,9 @@ nav {
 #mission-icon,
 #flag-icon,
 #alien-icon {
-  width: 20%;
+  margin-top: 5px;
   height: 90%;
+  width: 20%;
 }
 
 .logo-account {
@@ -79,10 +80,9 @@ main {
   width: 100%;
 }
 
-.mission-header {
-  margin-top: 3%;
-  margin-left: 4%;
+.control-header {
   color: white;
+  margin-left: 45px;
 }
 
 .cards-section {
@@ -99,13 +99,14 @@ main {
   border-radius: 20px;
   box-shadow: 0 0 10px #9ecaed;
   font-family: "Fira code";
-  height: 475px;
-  width: 250px;
+  height: 450px;
+  width: 275px;
   margin: 30px;
 }
 
 #card-image {
   border-radius: 20px 20px 0px 0px;
+  opacity: 0.7;
   height: 200px;
   width: 100%;
 }
@@ -115,22 +116,29 @@ main {
   padding: 10px;
 }
 
+.mission-header {
+  margin-left: 10px;
+  color: white;
+}
+
 .blurb-box {
   background: #121212;
   border: 1px inset;
   border-radius: 10px;
-  margin-top: 20px;
-  padding: 6px;
-}
-
-.blurb {
   color: #f8f8ff;
   font-size: 14px;
+  padding: 6px;
   text-align: center;
 }
 
+.blurb-box,
 .cmd-box {
-  margin-top: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cmd-box {
+  margin-left: 10px;
 }
 
 .command,
@@ -141,17 +149,9 @@ main {
 
 .cmd-name {
   font-size: 16px;
-  margin-top: 5px;
-}
-
-.deploy {
-  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .day-count {
-  font-size: 30px;
-}
-
-.day-count1 {
   font-size: 20px;
 }
