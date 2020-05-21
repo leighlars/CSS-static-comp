@@ -1,0 +1,68 @@
+html, body, h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+padding: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+body {
+background: #EAEAF4;
+display: flex;
+flex-direction: column;
+font-family: "Pangolin";
+}
+
+.header {
+  display: flex;
+  background: darkblue;
+  color: white;
+  height: 20vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-start;
+  margin-left: 2%;
+  height: 100%;
+  width: 100%;
+}
+
+.shares-btn,
+.playlists-btn,
+.personal-videos-btn {
+  width: 25%;
+  height: 20%;
+}
+
+#alien-icon,
+#launch-icon,
+#earth-icon {
+  width: 100%;
+  height: 100%;
+}
+
+
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 1%;
+  padding-left: 50%;
+  width: 50%;
+}
+
+.account {
+  display: flex;
+}
+
+
+#logo-icon {
+    background-color: darkblue;
+    height: 90%;
+    width: 90%;
+    /* margin: 2%; */
+}
