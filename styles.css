@@ -16,8 +16,8 @@ font-family: "Fira Code";
 
 .header {
   display: flex;
-  background: url("assets/black-space.jpg");
-  color: white;
+  border-bottom: 3px solid #121212;
+  color: #f2f2f2;
   height: 21vh;
   width: 100%;
 }
@@ -35,11 +35,11 @@ nav {
 .alien-btn {
   background: black;
   border: none;
-  color: white;
-  font: 18px "Fira Code";
+  color: #f2f2f2;
+  font: 1vw "Fira Code";
   text-align: left;
   margin-top: 2%;
-  width: 30%;
+  width: 23%;
   height: 30%;
 }
 
@@ -81,7 +81,7 @@ main {
 }
 
 .control-header {
-  color: white;
+  color: #f2f2f2;
   margin-left: 45px;
 }
 
@@ -104,6 +104,38 @@ main {
   margin: 30px;
 }
 
+.card-top {
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  display: flex;
+  justify-content: space-between;
+  color: #f2f2f2;
+  position: absolute;
+  top: 16px;
+  width: 100%;
+}
+
+.play-button {
+  background: none;
+  border: none;
+  width: 60px;
+  height: 50px;
+}
+
+.views {
+  padding-right: 10px;
+}
+
+#play-icon {
+  background: none;
+  width: 100%;
+  height: 70%;
+}
+
 #card-image {
   border-radius: 20px 20px 0px 0px;
   opacity: 0.7;
@@ -112,28 +144,31 @@ main {
 }
 
 .card-bottom {
-  color: #f8f8ff;
-  padding: 10px;
+  color: #f2f2f2;
+  padding: 5px;
 }
 
 .mission-header {
   margin-left: 10px;
-  color: white;
+  margin-top: 10px;
+  color: #f2f2f2;
 }
 
 .blurb-box {
   background: #121212;
   border: 1px inset;
   border-radius: 10px;
-  color: #f8f8ff;
+  color: #f2f2f2;
   font-size: 14px;
-  padding: 6px;
   text-align: center;
+  margin: 5px auto;
+  padding: 6px;
+  width: 80%;
 }
 
 .blurb-box,
 .cmd-box {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -142,16 +177,18 @@ main {
 }
 
 .command,
-.days-header {
-  font-size: 12px;
-  margin-top: 5px;
+.days-header,
+.views-header {
+  font-size: 1vw;
+  margin-top: 10px;
 }
 
 .cmd-name {
   font-size: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.day-count {
-  font-size: 20px;
+.day-count,
+.view-count {
+  font-size: 2.5vw;
 }
