@@ -1,4 +1,4 @@
-#Static Comp Challenge #1
+# Static Comp Challenge #1
 - Leigh Larson (https://github.com/leighlars)
 - Deployed pages: https://leighlars.github.io/ll-comp-challenge-1/
 
