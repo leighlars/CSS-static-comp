@@ -12,12 +12,15 @@ background: url("assets/black-space.jpg");
 display: flex;
 flex-direction: column;
 font-family: "Rajdhani";
-cursor: url();
 }
 
 .page-header {
   display: flex;
   flex: 1;
+  border-bottom: 1px solid #3c037a;
+  box-shadow:
+    5px 0 20px #3c037a,
+    5px 0 20px #0ff;
   color: #ffffff;
   height: 15vh;
   width: 100%;
@@ -26,6 +29,7 @@ cursor: url();
 nav {
   display: flex;
   margin-left: 2%;
+  margin-top: 3%;
   height: 100%;
   width: 75%;
 }
@@ -94,16 +98,20 @@ nav {
 .account {
   display: flex;
   justify-content: flex-end;
-  color: #C0C0C0;
-  font-size: 2.5vh;
   margin-right: 1%;
   margin-bottom: 2%;
+}
+
+.account-text {
+  color: #C0C0C0;
+  font-size: 2.5vh;
+  margin-left: 1%;
 }
 
 .menu-btn {
   background: black;
   border: none;
-  margin-bottom: 1%;
+  color: #C0C0C0;
   width: 8%;
 }
 
@@ -125,10 +133,11 @@ nav {
   box-shadow:
     -10px 0 20px #3c037a,
     5px 0 10px #0ff;
-  margin-left: 63%;
+  margin-top: 2%;
+  margin-left: 61%;
   margin-right: 5%;
-  height: 120px;
-  width: 120px;
+  height: 140px;
+  width: 140px;
 }
 
 main {
@@ -143,6 +152,7 @@ main {
     -10px 0 20px #3c037a,
     10px 0 20px #0ff;
   margin-left: 3%;
+  margin-top: 2%;
 }
 
 .cards-section {
@@ -193,10 +203,9 @@ main {
 }
 
 .play-button:hover {
+  transition: background-color 1200ms;
   background: rgb(60,3,122);
   background: linear-gradient(119deg, rgba(60,3,122,1) 10%, rgba(142,220,203,1) 84%);
-  color: #ffffff;
-  transition: background-color 1200ms;
 }
 
 .views {
@@ -231,12 +240,16 @@ main {
   color: #f2f2f2;
 }
 
+.mission-title {
+  font-size: 20px;
+}
+
 .blurb-box {
   background: #121212;
   border: 1px inset;
   border-radius: 10px;
   color: #f2f2f2;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   margin: 5px auto;
   padding: 6px;
@@ -255,16 +268,16 @@ main {
 
 .command,
 .days-header {
-  font-size: 14px;
-  margin-top: 10px;
+  font-size: 16px;
+  margin-top: 4px;
 }
 
 .cmd-name {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 6px;
 }
 
 .day-count,
 .view-count {
-  font-size: 30px;
+  font-size: 28px;
 }

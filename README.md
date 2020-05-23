@@ -22,3 +22,11 @@ The estimated timeline is as follows:
 I created a new repo and cloned it down. I set up the readme, readme-images and assets folders, and html and css files.
 ![image of wireframe](/readme-images/compchal1-wireframe.jpg)
 *Wireframe*
+
+**5/22/2020 Styling**
+I added crafted HTML and CSS styling for my Space Force Mission Control page. In the header, I added a navigation section of 3 buttons for the Mission Control page, Classified page, and US Space Force home page. I also added a logo of Space Force and an account button on the right side. In the main section, I made 8 cards representing "missions" the user could choose. These missions displayed a still photo of a potential video that could be accessed by the play button, and mission information. I added a starry background, which contrasted well with the purple/teal glow shadow effect on many of my elements.
+
+I do not have adequate nor quality responiveness yet. 
+
+![image of first draft](/readme-images/day-2progress.png)
+*Wireframe*
