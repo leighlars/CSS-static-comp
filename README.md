@@ -1,9 +1,9 @@
 #Static Comp Challenge #1
 Leigh Larson (https://github.com/leighlars)
-
+Deployed pages: https://leighlars.github.io/ll-comp-challenge-1/
 ##Overview & Goals
 This mod1 solo project is focused on recreating a static comp.
-The goal is to practice wireframing, pseudocoding, semantic HTML naming, and CSS tools like Grid and Flexbox. The layout will need to work across Safari, Chrome, and Firefox. It will also need to use normalize or reset file in CSS. While I will employ creative liberties, the structural integrity of the comp must remain.
+The goal is to practice wireframing, pseudocoding, semantic HTML naming, and CSS tools such as Grid and Flexbox. The layout will need to work across Safari, Chrome, and Firefox. It will also need to use normalize or reset file in CSS. While I will employ creative liberties, the structural integrity of the comp must remain.
 
 The project is due Monday, May 25th at 10pm.
 
@@ -12,6 +12,10 @@ The estimated timeline is as follows:
 - Crude HTML/CSS rendered by Thursday pm
 - Responsive implementation
 - Polishing until Monday deadline!
+
+##Set-up
+- Fork the repo on Github and clone it down into terminal.
+- Open your local repository in your preferred editor and begin with the ReadMe.
 
 ##Original Comp
 ![screenshot of original comp](/readme-images/original-comp.jpg)
