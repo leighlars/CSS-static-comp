@@ -11,19 +11,20 @@ body {
 background: url("assets/black-space.jpg");
 display: flex;
 flex-direction: column;
-font-family: "Fira Code";
+font-family: "Rajdhani";
 }
 
-.header {
+.page-header {
   display: flex;
+  flex: 1;
   color: #ffffff;
-  height: 25%;
+  height: 25vh;
   width: 100%;
 }
 
 nav {
   display: flex;
-  margin-left: 1%;
+  margin-left: 2%;
   height: 100%;
   width: 75%;
 }
@@ -31,15 +32,22 @@ nav {
 .home-btn,
 .missions-btn,
 .alien-btn {
+  display: flex;
   background: black;
-  border: none;
-  color: #ffffff;
-  font: 20px "Fira Code";
-  text-align: left;
-  margin-top: 3%;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: #C0C0C0;
+  font: 3vh "Rajdhani";
+  margin-top: 16%;
   padding-bottom: 1%;
-  width: 240px;
-  height: 30px;
+  height: 15%;
+  width: 250px;
+}
+
+.home-btn:hover,
+.missions-btn:hover,
+.alien-btn:hover {
+  transform: skewX(-15deg);
 }
 
 .home-btn {
@@ -47,20 +55,22 @@ nav {
 }
 
 .alien-btn {
-  width: 170px;
+  width: 180px;
 }
 
 #mission-icon,
 #alien-icon,
 #flag-icon {
-  margin-right: 1%;
-  height: 100%;
-  width: 15%;
+  margin-right: 2%;
+  height: 3vh;
+  width: 3vh;
 }
 
 .account-logo {
   display: flex;
   flex-direction: column;
+  margin: 1%;
+  padding: 1%;
   height: 100%;
   width: 25%;
 }
@@ -75,14 +85,18 @@ nav {
   display: flex;
   justify-content: flex-end;
   font-size: 16px;
-  height: 4%;
 }
 
 .menu-btn {
   background: black;
   border: none;
   margin-bottom: 5%;
-  width: 30px;
+  width: 8%;
+}
+
+.menu-btn:hover {
+  background-color: #808069;
+  border-radius: 50%;
 }
 
 #menu-icon {
@@ -91,29 +105,43 @@ nav {
 }
 
 #nasa-logo {
-  margin-left: 50%;
-  margin-right: 1%;
+  background-color: black;
+  margin-left: 63%;
+  margin-right: 5%;
   height: 120px;
   width: 120px;
 }
 
 main {
-  margin-top: 5%;
-  height: 100%;
+  height: 70%;
   width: 100%;
 }
 
-.control-header {
+.section-header-line {
+  display: flex;
+  margin: 1% 1%;
+  height: 10%;
+  width: 100%;
+}
+
+#arrow-icon {
+  height: 80%;
+  width: 10%;
+}
+
+.section-header {
   color: #ffffff;
-  margin-left: 3%;
+  /* margin-left: 3%;
+  margin-top: 5%; */
 }
 
 .cards-section {
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
   justify-content: space-around;
   margin: 10px auto;
+  height: 75%;
+  width: 100%;
 }
 
 .individual-card {
@@ -121,7 +149,7 @@ main {
   border: 1px solid darkgrey;
   border-radius: 20px;
   box-shadow: 0 0 10px #9ecaed;
-  font-family: "Fira code";
+  font-family: "Rajdhani";
   height: 450px;
   width: 275px;
   margin: 30px;
@@ -144,20 +172,31 @@ main {
 
 .play-button {
   background: none;
-  border: none;
+  border: .5px solid #808069;
+  border-radius: 50%;
   margin-top: 10px;
   margin-left: 10px;
-  width: 60px;
   height: 60px;
+  width: 60px;
+}
+
+.play-button:hover {
+  background-color: #808069;
+  color: #ffffff;
+  transition: background-color 1200ms;
 }
 
 .views {
-  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.views-header{
+  margin-left: 8%;
 }
 
 #play-icon {
   background: none;
-  width: 100%;
+  width: 90%;
   height: 70%;
 }
 
@@ -193,8 +232,8 @@ main {
 
 .blurb-box,
 .cmd-box {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .cmd-box {
@@ -202,9 +241,8 @@ main {
 }
 
 .command,
-.days-header,
-.views-header {
-  font-size: 12px;
+.days-header {
+  font-size: 14px;
   margin-top: 10px;
 }
 
