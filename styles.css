@@ -14,15 +14,20 @@ flex-direction: column;
 font-family: "Rajdhani";
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .page-header {
   display: flex;
-  flex: 1;
   border-bottom: 1px solid #3c037a;
   box-shadow:
     5px 0 20px #3c037a,
     5px 0 20px #0ff;
   color: #ffffff;
-  height: 15vh;
+  height: 30%;
   width: 100%;
 }
 
@@ -141,17 +146,19 @@ nav {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
   height: 70%;
   width: 100%;
 }
 
 .section-header {
   color: #ffffff;
-  font-size: 5vh;
   text-shadow:
     -10px 0 20px #3c037a,
     10px 0 20px #0ff;
-  margin-left: 3%;
+  margin-left: 4%;
   margin-top: 2%;
 }
 
@@ -280,4 +287,136 @@ main {
 .day-count,
 .view-count {
   font-size: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  .page-header {
+    display: flex;
+    border-bottom: 1px solid #3c037a;
+    box-shadow:
+      5px 0 20px #3c037a,
+      5px 0 20px #0ff;
+    color: #ffffff;
+    height: 30%;
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 100%;
+    width: 50%;
+  }
+
+  .home-btn,
+  .missions-btn,
+  .alien-btn {
+    display: flex;
+    background: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 20%;
+    width: 100%;
+  }
+
+  .home-btn:hover,
+  .missions-btn:hover,
+  .alien-btn:hover {
+    transform: skewX(-15deg);
+    box-shadow:
+      -10px 0 20px #3c037a,
+      10px 0 20px #0ff;
+  }
+
+  .btn-text {
+    color: #C0C0C0;
+    text-shadow:
+      5px 0 20px #3c037a,
+      5px 0 20px #0ff;
+    font: 2vh "Rajdhani";
+    margin-top: 2%;
+  }
+
+  #mission-icon,
+  #alien-icon,
+  #flag-icon {
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .account-logo {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+  }
+
+  #astronaut-icon {
+    margin-right: 1%;
+    height: 3vh;
+    width: 3vh;
+  }
+
+  .account {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4%;
+    margin-right: 9%;
+    margin-bottom: 2%;
+  }
+
+  .account-text {
+    color: #C0C0C0;
+    font-size: 2.5vh;
+    margin-left: 2%;
+  }
+
+  .menu-btn {
+    background: black;
+    border: none;
+    color: #C0C0C0;
+    width: 5%;
+    margin-left: 2%;
+  }
+
+  .menu-btn:hover {
+    box-shadow:
+      -10px 0 20px #3c037a,
+      5px 0 10px #0ff;
+    border-radius: 50%;
+  }
+
+  #menu-icon {
+    height: 100%;
+    width: 100%;
+  }
+
+  #nasa-logo {
+    background-color: black;
+    border-radius: 50%;
+    box-shadow:
+      -10px 0 20px #3c037a,
+      5px 0 10px #0ff;
+    margin-top: 4%;
+    margin-left: 61%;
+    margin-right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .section-header {
+    color: #ffffff;
+    text-shadow:
+      -10px 0 20px #3c037a,
+      10px 0 20px #0ff;
+    margin-left: 4%;
+    margin-top: 3%;
+  }
 }
