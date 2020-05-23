@@ -37,10 +37,12 @@ nav {
   border: 2px solid black;
   border-radius: 10px;
   color: #C0C0C0;
-  font: 3vh "Rajdhani";
+  text-shadow:
+    5px 0 20px #3c037a,
+    5px 0 20px #0ff;
+  font: 4vh "Rajdhani";
   margin-top: 16%;
-  padding-bottom: 1%;
-  height: 15%;
+  height: 18%;
   width: 250px;
 }
 
@@ -48,6 +50,9 @@ nav {
 .missions-btn:hover,
 .alien-btn:hover {
   transform: skewX(-15deg);
+  box-shadow:
+    -10px 0 20px #3c037a,
+    10px 0 20px #0ff;
 }
 
 .home-btn {
@@ -58,44 +63,53 @@ nav {
   width: 180px;
 }
 
+.btn-text {
+  font-size: 3vh;
+  margin-top: 2%;
+}
+
 #mission-icon,
 #alien-icon,
 #flag-icon {
-  margin-right: 2%;
-  height: 3vh;
-  width: 3vh;
+  margin-right: 4%;
+  height: 40px;
+  width: 40px;
 }
 
 .account-logo {
   display: flex;
   flex-direction: column;
-  margin: 1%;
-  padding: 1%;
+  margin: 2%;
   height: 100%;
   width: 25%;
 }
 
 #astronaut-icon {
   margin-right: 1%;
-  height: 50%;
-  width: 12%;
+  height: 3vh;
+  width: 3vh;
 }
 
 .account {
   display: flex;
   justify-content: flex-end;
-  font-size: 16px;
+  color: #C0C0C0;
+  font-size: 3vh;
+  margin-right: 1%;
+  margin-bottom: 1%;
 }
 
 .menu-btn {
   background: black;
   border: none;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   width: 8%;
 }
 
 .menu-btn:hover {
-  background-color: #808069;
+  box-shadow:
+    -10px 0 20px #3c037a,
+    5px 0 10px #0ff;
   border-radius: 50%;
 }
 
@@ -106,6 +120,10 @@ nav {
 
 #nasa-logo {
   background-color: black;
+  border-radius: 50%;
+  box-shadow:
+    -10px 0 20px #3c037a,
+    5px 0 10px #0ff;
   margin-left: 63%;
   margin-right: 5%;
   height: 120px;
@@ -117,22 +135,14 @@ main {
   width: 100%;
 }
 
-.section-header-line {
-  display: flex;
-  margin: 1% 1%;
-  height: 10%;
-  width: 100%;
-}
-
-#arrow-icon {
-  height: 80%;
-  width: 10%;
-}
-
 .section-header {
   color: #ffffff;
-  /* margin-left: 3%;
-  margin-top: 5%; */
+  font-size: 5vh;
+  text-shadow:
+    -10px 0 20px #3c037a,
+    10px 0 20px #0ff;
+  margin-left: 3%;
+  margin-top: 2%;
 }
 
 .cards-section {
@@ -148,7 +158,9 @@ main {
   background: #121212;
   border: 1px solid darkgrey;
   border-radius: 20px;
-  box-shadow: 0 0 10px #9ecaed;
+  box-shadow:
+    -10px 0 20px #3c037a,
+    10px 0 10px #0ff;
   font-family: "Rajdhani";
   height: 450px;
   width: 275px;
@@ -181,7 +193,8 @@ main {
 }
 
 .play-button:hover {
-  background-color: #808069;
+  background: rgb(60,3,122);
+  background: linear-gradient(119deg, rgba(60,3,122,1) 10%, rgba(142,220,203,1) 84%);
   color: #ffffff;
   transition: background-color 1200ms;
 }
@@ -209,6 +222,7 @@ main {
 
 .card-bottom {
   color: #f2f2f2;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
   padding: 5px;
 }
 
