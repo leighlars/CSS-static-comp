@@ -1,11 +1,12 @@
-# Static Comp Challenge #1
+#Static Comp Challenge #1
 - Leigh Larson (https://github.com/leighlars)
 - Deployed pages: https://leighlars.github.io/ll-comp-challenge-1/
 
-## Overview & Goals
-
+##Overview & Goals
 This mod1 solo project is focused on recreating a static comp.
 The goal is to practice wireframing, pseudocoding, semantic HTML naming, and CSS tools such as Grid and Flexbox. The layout will need to work across Safari, Chrome, and Firefox. It will also need to use normalize or reset file in CSS. While I will employ creative liberties, the structural integrity of the comp must remain.
+
+I chose to design a Space Force theme in response to the installation of the US Space Force military branch. The static page is a model of what a space solider would use to choose their mission. 
 
 The project is due Monday, May 25th at 10pm.
 
