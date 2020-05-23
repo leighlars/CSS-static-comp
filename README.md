@@ -34,7 +34,7 @@ I added crafted HTML and CSS styling for my Space Force Mission Control page. In
 
 I do not have adequate nor quality responsiveness yet.
 
-![image of first draft](/readme-images/day-2progress.png)
+![image of first draft](/readme-images/day-2-progress.png)
 *First draft*
 
 **5/20/2020**
