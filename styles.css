@@ -21,6 +21,10 @@ font-family: "Rajdhani";
   padding: 0;
 }
 
+button {
+  outline: none;
+}
+
 .page-header {
   display: flex;
   border-bottom: 1px solid #3c037a;
@@ -157,7 +161,7 @@ main {
 }
 
 .section-header {
-  color: #ffffff;
+  color: #C0C0C0;
   font-size: 30px;
   text-shadow:
     -10px 0 20px #3c037a,
@@ -171,7 +175,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 10px auto;
-  height: 75%;
+  height: 60%;
   width: 100%;
 }
 
@@ -195,11 +199,11 @@ main {
 }
 
 .overlay {
-  position: absolute;
   display: flex;
   justify-content: space-between;
-  color: #f2f2f2;
+  position: absolute;
   top: 16px;
+  color: #f2f2f2;
   width: 90%;
 }
 
@@ -241,14 +245,13 @@ main {
 }
 
 .card-bottom {
-  color: #f2f2f2;
+  color: #C0C0C0;
   padding: 5px;
 }
 
 .mission-header {
-  margin-left: 10px;
   margin-top: 10px;
-  color: #f2f2f2;
+  margin-left: 10px;
 }
 
 .mission-title {
@@ -256,10 +259,9 @@ main {
 }
 
 .blurb-box {
-  background: #121212;
   border: 1px inset;
   border-radius: 10px;
-  color: #f2f2f2;
+  color: #C0C0C0;
   font-size: 16px;
   text-align: center;
   margin: 5px auto;
@@ -308,7 +310,7 @@ main {
     box-shadow:
       5px 0 20px #3c037a,
       5px 0 20px #0ff;
-    color: #ffffff;
+    color: #C0C0C0;
     height: 200px;
     width: 100%;
   }
@@ -418,7 +420,7 @@ main {
   }
 
   .section-header {
-    color: #ffffff;
+    color: #C0C0C0;
     text-shadow:
       -10px 0 20px #3c037a,
       10px 0 20px #0ff;
