@@ -162,12 +162,12 @@ main {
 
 .section-header {
   color: #C0C0C0;
-  font-size: 30px;
+  font-size: 35px;
   text-shadow:
     -10px 0 20px #3c037a,
     10px 0 20px #0ff;
+    margin-top: 2%;
   margin-left: 3%;
-  margin-top: 2%;
 }
 
 .cards-section {
@@ -213,7 +213,6 @@ main {
   border-radius: 50%;
   margin-top: 10px;
   margin-left: 10px;
-  outline: none;
   height: 60px;
   width: 60px;
 }
