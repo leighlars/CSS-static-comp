@@ -6,7 +6,7 @@
 This mod1 solo project is focused on recreating a static comp.
 The goal is to practice wireframing, pseudocoding, semantic HTML naming, and CSS tools such as Grid and Flexbox. The layout will need to work across Safari, Chrome, and Firefox. It will also need to use normalize or reset file in CSS. While I will employ creative liberties, the structural integrity of the comp must remain.
 
-I chose to design a Space Force theme in response to the installation of the US Space Force military branch. The static page is a model of what a space solider would use to choose their mission. 
+I chose to design a Space Force theme in response to the installation of the US Space Force military branch. The static page is a model of what a space solider would use to choose their mission.
 
 The project is due Monday, May 25th at 10pm.
 
@@ -43,3 +43,13 @@ I added a media query to CSS to respond at 500px.
 I changed the  nav buttons to stack on top of each other when the screen is smaller.  
 ![image of media query](/readme-images/media-resp.png)
 *App rendered at 500px*
+
+**5/25/2020**
+I changed the color of the font from a blinding white to a more tolerable bright-grey. I also tweaked the margins and spacing for the nav header and cards section. The completed project is displayed below.
+
+
+![image of desktop view](/readme-images/final-desktop.png)
+*Desktop view--final*
+
+![image of mobile view](/readme-images/final-mobile-view.png)
+*Mobile view--final*
